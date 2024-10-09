@@ -20,7 +20,7 @@ $(document).ready(function() {
                             "Remarks" : 12,
                             "Course2": 16,
                             "Term": 25};
-        for (let i=0; i<8; i++)
+        for (let i=0; i<sem.length; i++)
         {
             //Title
             $(".tablebody").append(
