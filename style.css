@@ -1,0 +1,87 @@
+/* Table cells */
+table,td,th{
+    border: 1px solid #68686899;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 7px;
+}
+
+/* Table */
+table {
+    margin: 0px auto;
+    font-size: 12px;
+    box-shadow: 0 1px 4px -1px;
+    width: 80%;
+    border-radius: 10px;
+    border-spacing: 0px;
+    padding: 1px;
+    background-color: #3f3832;
+    border-collapse: collapse;
+}
+/* Table rounded corner */
+/* Upper left corner */
+tr:first-of-type th:first-of-type {
+    border-top-left-radius: 10px;
+}
+/* Upper right corner */
+tr:first-of-type th:last-of-type {
+    border-top-right-radius: 10px;
+}
+/* Lower left corner */
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+}
+/* Lower right corner */
+tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+}
+
+/* Table head */
+.table-title {
+    color: #1b1b1b;
+    font-weight: 600;
+    background-color: #539fea;
+    height: 40px;
+    padding: 10px 5px;
+}
+
+/* Table subhead or field */
+.table-head {
+    color: #1b1b1b;
+    font-weight: 600;
+    background-color: #e2e2e2;
+    height: 35px;
+    padding: 10px;
+}
+
+/* Courses already taken */
+.table-body-taken {
+    background-color: #87CEEB;
+    height: 45px;
+}
+
+/* Courses currently taken */
+.table-body-in-progress {
+    background-color: #ffe751;
+    height: 45px;
+}
+
+/* Courses not taken */
+.table-body-not-taken {
+    background-color: white;
+    height: 45px;
+}
+
+/* Body */
+body {
+    font-family: 'verdana';
+    text-align: center;
+    font-size: 12px;
+    padding: 1px;
+}
+/* Paragraph */
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
